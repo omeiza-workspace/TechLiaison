@@ -1,13 +1,49 @@
-baseURL = 'https://your-blog-name.netlify.app/'
+baseURL = 'https://techliaison.netlify.app/'
 languageCode = 'en-us'
-title = 'My Blog'
-theme = 'ananke'
+title = 'TechLiaison'
+theme = 'PaperMod'
+
+[pagination]
+  pagerSize = 5
 
 [params]
-  author = "Your Name"
-  description = "My personal blog and publication space"
-  custom_css = ["custom.css"]
+  env = "production"
+  author = "Omeiza Okuta"
+  description = "Bridging technical solutions and business needs — practical insights from a Solutions Engineer"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  [params.homeInfoParams]
+    Title = "Welcome to TechLiaison"
+    Content = "Bridging the gap between technical teams and business needs. Practical insights on application support, DevOps, and building lasting solutions."
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
 
 [markup]
   [markup.highlight]
+    noClasses = false
     style = "github"
