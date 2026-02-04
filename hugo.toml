@@ -1,0 +1,13 @@
+baseURL = 'https://your-blog-name.netlify.app/'
+languageCode = 'en-us'
+title = 'My Blog'
+theme = 'ananke'
+
+[params]
+  author = "Your Name"
+  description = "My personal blog and publication space"
+  custom_css = ["custom.css"]
+
+[markup]
+  [markup.highlight]
+    style = "github"
