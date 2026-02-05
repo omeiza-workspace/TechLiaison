@@ -47,3 +47,6 @@ theme = 'PaperMod'
   [markup.highlight]
     noClasses = false
     style = "github"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

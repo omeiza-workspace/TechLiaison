@@ -1,6 +1,6 @@
 # My Hugo Blog
 
-A static blog powered by [Hugo](https://gohugo.io/) and hosted on [Netlify](https://www.netlify.com/), with the [Ananke](https://github.com/theNewDynamic/gohugo-theme-ananke) theme.
+A static blog powered by [Hugo](https://gohugo.io/) and hosted on [Netlify](https://www.netlify.com/), with the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
 
 ## Setup
 
@@ -43,10 +43,10 @@ Edit `hugo.toml` to customize:
 
 ## Theme Customization
 
-The Ananke theme is used as a git submodule in `themes/ananke`. To update the theme:
+The PaperMod theme is used as a git submodule in `themes/PaperMod`. To update the theme:
 ```bash
-cd themes/ananke
+cd themes/PaperMod
 git pull origin main
 ```
 
-See [Ananke documentation](https://github.com/theNewDynamic/gohugo-theme-ananke) for customization options.
+See [PaperMod documentation](https://github.com/adityatelange/hugo-PaperMod) for customization options.
